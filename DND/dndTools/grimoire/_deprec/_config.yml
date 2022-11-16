@@ -1,0 +1,23 @@
+# Site settings
+title: "The Grimoire"
+author: "Saph, thebombzen, Timmseth"
+description:
+  "A searchable D&D 5e spell list, sorted by class and level."
+baseurl: "/DND/dndTools/grimoire/" # the subpath of your site, e.g. /blog/
+url: "https://thgmdb.com" # the base hostname & protocol for your site
+source-url: "https://thgmdb.com/DND/dndTools/grimoire/"
+permalink: "/:categories/:title"
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: "spells"

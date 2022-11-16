@@ -1,0 +1,100 @@
+/* Google Fonts */
+.ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+.ubuntuCondensed{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.ubuntuMono{
+  font-family: 'Ubuntu Mono', monospace;
+}
+/* Main Quack Tools Styles */
+html{
+  min-height: 100%;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.90), 
+      rgba(0, 0, 0, 0.90)
+    ),
+    url('https://thegmdb.com/img/ducks.jpg');
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+div#mainStage{
+  padding-top: 185px!important;
+  padding-bottom:  185px!important;
+}
+@media only screen and (max-width: 600px) {
+  div#mainStage{
+    padding-top: 75px!important;
+    padding-bottom:  185px!important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  div#mainStage{
+    padding-top: 55px!important;
+    padding-bottom:  185px!important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  div#mainStage{
+    padding-top: 35px!important;
+    padding-bottom:  185px!important;
+  }
+}
+p.creditText{
+color: #444;
+font-size: small;
+}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  tr { border: 1px double #efefef; }
+  
+  td { 
+    border: none;
+    border-bottom: 1px solid #454545; 
+    position: relative;
+    padding-left: 50%; 
+  }
+    td:before { 
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  td.ndxNumber{
+  display: none;
+  }
+
+  /*td:nth-of-type(1){ display: none;}*/
+  /*
+  Label the data
+  td:nth-of-type(2):before { display: block;text-align: left;content: "Name\A";white-space: pre; }
+  td:nth-of-type(3):before { display: block;text-align: left;content: "Duration\A";white-space: pre; }
+  td:nth-of-type(4):before { display: block;text-align: left;content: "Price\A";white-space: pre;}
+  */
+}
+#uSubResDatatable_filter,
+#uSubResDatatable_length,
+#d100Datatable_filter,
+#d100Datatable_length,
+#spellsDatatable_filter,
+#spellsDatatable_length{
+  display: none;
+}
