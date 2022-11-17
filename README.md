@@ -5,8 +5,8 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 
 ## Requirements:
 - A webserver (you can host it on apache,httpd,lamp,wamp,xxamp, etc).  
-- SSL cert (self-signed is fine)
 - PHP installed with php-dom/php-xml modules (php8 works).
+- SSL cert if desired - if using localhost self-signed is fine or you can disable the SSL redirect as detailed below.
 
 ## Required Configuration
 In the /includes/config.php file $siteAbsolutePath needs to be set to your website absolute path like so:
@@ -14,4 +14,4 @@ In the /includes/config.php file $siteAbsolutePath needs to be set to your websi
 - $siteAbsolutePath='https://thegmdb.com' 		(hosted)
 
 **Note:**
-If choosing to serve this app in a localhost environment you will probably want to disable the SSL redirect by commenting out the first section (lines 3-8) in the /includes/config.php file.
+If choosing to serve this app in a localhost environment you will probably want to disable the SSL redirect by commenting out the first section (lines 3-8) in the /includes/config.php file.0
