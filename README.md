@@ -8,5 +8,10 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 - SSL cert (self-signed is fine)
 - PHP installed with php-dom/php-xml modules (php8 works).
 
-## Localhost Modifications
-By default the app contains an SSL redirect. You can disable this by commenting out the first section (lines 3-8) in the /includes/config.php file.
+## Required Configuration
+In the /includes/config.php file $siteAbsolutePath needs to be set to your website absolute path like so:
+- $siteAbsolutePath='https://localhost/gmdb' 	(localhost)
+- $siteAbsolutePath='https://thegmdb.com' 		(hosted)
+
+**Note:**
+If choosing to serve this app in a localhost environment you will probably want to disable the SSL redirect by commenting out the first section (lines 3-8) in the /includes/config.php file.
