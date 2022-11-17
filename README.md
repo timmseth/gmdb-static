@@ -24,11 +24,18 @@ If choosing to serve this app in a localhost environment you will probably want 
 
 ## Credits
 Web Application made by [Seth Timmons](https://sethtimmons.com/) using [Bootstrap](https://getbootstrap.com/).
+
 Background photo by [Manfred Richter](https://pixabay.com/users/manfredrichter-4055600/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4127713) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4127713).
+
 Logos created using [Free Logo Design](https://www.freelogodesign.org/).
-DND Resources populated from various sources including:
+
+#### DND Resources populated from various sources including:
 [https://dnd.wizards.com/](https://dnd.wizards.com/)
+
 [r/d100](https://www.reddit.com/r/d100)
+
 [DNDSPEAK](https://www.dndspeak.com/)
+
 [Sword Coast Soundscapes on Youtube](https://www.youtube.com/c/SwordCoastSoundscapes)
+
 [TheBombZen Grimoire](https://github.com/thebombzen/grimoire/)
