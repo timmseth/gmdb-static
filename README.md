@@ -5,7 +5,7 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 
 ## Requirements:
 - A webserver (you can host it on apache,httpd,lamp,wamp,xxamp, etc).  
-- PHP installed with php-dom/php-xml modules (php8 works).
+- PHP installed with the php-dom module (php8 with php-xml works).
 - SSL cert if desired - if using localhost self-signed is fine or you can disable the SSL redirect as detailed below.
 
 ## Required Configuration
