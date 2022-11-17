@@ -17,8 +17,8 @@ In the /includes/config.php file $siteAbsolutePath needs to be set to the absolu
 
 Here are the most likely options:
 ```
-$siteAbsolutePath='http://localhost/gmdb' 					//(localhost Non-SSL)
-$siteAbsolutePath='https://localhost/gmdb' 					//(localhost SSL)
+$siteAbsolutePath='http://localhost/gmdb' 			//(localhost Non-SSL)
+$siteAbsolutePath='https://localhost/gmdb' 			//(localhost SSL)
 $siteAbsolutePath='http://<your_website_url_here>.com' 		//(hosted Non-SSL)
 $siteAbsolutePath='https://<your_website_url_here>.com' 	//(hosted SSL)
 ```
