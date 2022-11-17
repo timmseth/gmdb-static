@@ -15,7 +15,9 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 ## Required Configuration
 In the /includes/config.php file $siteAbsolutePath needs to be set to the absolute path of the installation directory. 
 
-Here are the most likely options:
+Here are the most likely examples.
+
+Pick one and tweak it to match your install directory:
 ```
 $siteAbsolutePath='http://localhost/gmdb' 			//(localhost Non-SSL)
 $siteAbsolutePath='https://localhost/gmdb' 			//(localhost SSL)
