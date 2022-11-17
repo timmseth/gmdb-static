@@ -30,7 +30,7 @@ If choosing to serve this app in a localhost environment you will probably want 
 
 ## Common Problems
 ### The Spellbook Doesn't Work!
-This is almost always caused by the php-dom or php-xml modules not being installed. The spellbook does some document magic stuff that requires them. If you cant install those for some reason I recommend [TheBombZen Grimoire](https://github.com/thebombzen/grimoire/) since this implementation is based on that anyways.
+This is almost always caused by the php-dom or php-xml modules not being installed. The spellbook does some document magic stuff that requires them. If you can't install those for some reason I recommend [TheBombZen Grimoire](https://github.com/thebombzen/grimoire/) since this implementation is based on that anyways.
 
 ## Credits:
 - Web Application made by [Seth Timmons](https://sethtimmons.com/) using [Bootstrap](https://getbootstrap.com/).
