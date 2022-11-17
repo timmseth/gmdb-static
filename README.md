@@ -13,7 +13,7 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 - By default the config is mapped to localhost/gmdb so a folder of "gmdb" is ideal for quickstart.
 
 ## Required Configuration
-In the /includes/config.php file $siteAbsolutePath needs to be set to your website absolute path like so:
+In the /includes/config.php file $siteAbsolutePath needs to be set to the absolute path of the installation directory like so:
 
 ```
 $siteAbsolutePath='http://localhost/gmdb' 	//(localhost Non-SSL)
