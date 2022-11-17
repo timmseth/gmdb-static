@@ -16,10 +16,12 @@ Nothing crazy fancy. Host it somewhere and browse to it to use.
 In the /includes/config.php file $siteAbsolutePath needs to be set to the absolute path of the installation directory. 
 
 Here are the most likely options:
-+ $siteAbsolutePath='http://localhost/gmdb' 	//(localhost Non-SSL)
-+ $siteAbsolutePath='https://localhost/gmdb' 	//(localhost SSL)
-+ $siteAbsolutePath='http://<your_website_url_here>.com' 		//(hosted Non-SSL)
-+ $siteAbsolutePath='https://<your_website_url_here>.com' 	//(hosted SSL)
+```
+$siteAbsolutePath='http://localhost/gmdb' 					//(localhost Non-SSL)
+$siteAbsolutePath='https://localhost/gmdb' 					//(localhost SSL)
+$siteAbsolutePath='http://<your_website_url_here>.com' 		//(hosted Non-SSL)
+$siteAbsolutePath='https://<your_website_url_here>.com' 	//(hosted SSL)
+```
 
 **Note:**
 If choosing to serve this app in a localhost environment you will probably want to disable the SSL redirect by commenting out the first section (lines 3-8) in the /includes/config.php file.0
